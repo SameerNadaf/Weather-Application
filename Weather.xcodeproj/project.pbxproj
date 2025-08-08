@@ -21,6 +21,11 @@
 			path = Weather;
 			sourceTree = "<group>";
 		};
+		426E4A6C2E46362700AAF41C /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,7 @@
 		426E4A312E4612BE00AAF41C = {
 			isa = PBXGroup;
 			children = (
+				426E4A6C2E46362700AAF41C /* Screenshots */,
 				426E4A3D2E4612BE00AAF41C /* WeatherApp.swift */,
 				426E4A3C2E4612BE00AAF41C /* Weather */,
 				426E4A3B2E4612BE00AAF41C /* Products */,
@@ -68,6 +74,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				426E4A3C2E4612BE00AAF41C /* Weather */,
+				426E4A6C2E46362700AAF41C /* Screenshots */,
 			);
 			name = Weather;
 			packageProductDependencies = (
