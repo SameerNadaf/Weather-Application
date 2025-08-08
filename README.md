@@ -31,10 +31,14 @@ A beginner-friendly SwiftUI-based iOS app that shows real-time weather informati
 
 ## 📸 Screenshots
 
-<p float="left">
-  <img src="Screenshots/current-weather.png" alt="Current Weather Screen" width="45%" />
-  <img src="Screenshots/location-permission.png" alt="Location Permission" width="45%" />
-</p>
+### Welcome Screen
+<img src="Screenshots/welcome.png" alt="welcome screen" width="300" />
+
+### Permission
+<img src="Screenshots/permission.png" alt="permission" width="300" />
+
+### Current Weather Screen
+<img src="Screenshots/weather.png" alt="weather screen" width="300" />
 
 ---
 
@@ -42,23 +46,35 @@ A beginner-friendly SwiftUI-based iOS app that shows real-time weather informati
 
 ```
 
-WeatherApp/
-├── WeatherApp.xcodeproj
-├── WeatherApp/
-│   ├── Assets.xcassets
-│   ├── ContentView\.swift
-│   ├── Models/
-│   │   └── WeatherData.swift
-│   ├── ViewModels/
-│   │   └── WeatherViewModel.swift
-│   ├── Views/
-│   │   └── WeatherView\.swift
-│   ├── Services/
-│   │   ├── LocationManager.swift
-│   │   └── WeatherService.swift
-│   └── Utilities/
-│       └── Extensions.swift
-└── WeatherAppApp.swift
+├── Weather.xcodeproj
+|   ├── project.pbxproj
+|   ├── project.xcworkspace
+|   │   └── contents.xcworkspacedata
+|   └── xcuserdata
+├── Weather
+|   ├── Assets.xcassets
+|   ├── Components
+|   │   └── WeatherRow.swift
+|   ├── Extensions
+|   │   ├── Double.swift
+|   │   ├── RoundedCorner.swift
+|   │   └── View.swift
+|   ├── Managers
+|   │   ├── LocationManager.swift
+|   │   └── WeatherManager.swift
+|   ├── Models
+|   │   └── ResponseBody.swift
+|   ├── PreviewData
+|   │   ├── ModelData.swift
+|   │   └── weatherData.json
+|   └── Views
+|   │   ├── ContentView.swift
+|   │   ├── LoadingView.swift
+|   │   ├── WeatherView.swift
+|   │   └── WelcomeView.swift
+└── WeatherApp.swift
+├── Screenshots
+├── README.md
 
 ````
 
