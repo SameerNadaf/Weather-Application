@@ -1,8 +1,3 @@
-Here’s a complete and polished `README.md` file for your **Weather Application** that uses the **current location** to fetch and display weather data. The format and tone match your previous MapApplication README:
-
----
-
-```markdown
 # WeatherApp ☀️🌧️
 
 A beginner-friendly SwiftUI-based iOS app that shows real-time weather information based on the user's current location. This project explores integrating **Core Location** with **SwiftUI**, fetching weather data via a public API, and presenting it through a clean and responsive interface.
@@ -13,14 +8,12 @@ A beginner-friendly SwiftUI-based iOS app that shows real-time weather informati
 
 📍 Fetch Weather Based on Current Location  
 🌡️ Display Temperature, Weather Conditions, and Location Name  
-🌀 Real-Time Weather Refresh  
 📱 Minimal and Clean SwiftUI Layout  
 🧭 Location Permissions Handling  
 🎨 Weather Icons & Descriptive UI  
 🌙 Dark Mode Support  
 🧩 Reusable Views and Components  
 🧭 MVVM Architecture for Clean Code  
-📉 Error Handling for No Internet or Location Access  
 
 ---
 
@@ -30,8 +23,7 @@ A beginner-friendly SwiftUI-based iOS app that shows real-time weather informati
 🖼️ UI Framework: SwiftUI  
 📍 Location: Core Location  
 🌐 Networking: URLSession / Weather API (e.g., OpenWeatherMap)  
-📦 Architecture: MVVM  
-🛠️ State Management: Combine  
+📦 Architecture: MVVM   
 💻 IDE: Xcode  
 🚀 Deployment Target: iOS 15+
 
@@ -83,9 +75,9 @@ WeatherApp/
 ### Installation
 
 ```bash
-git clone https://github.com/SameerNadaf/WeatherApp.git
-cd WeatherApp
-open WeatherApp.xcodeproj
+git clone https://github.com/SameerNadaf/Weather-Application.git
+cd Weather-Application
+open Weather.xcodeproj
 ````
 
 ### Run the App
@@ -123,7 +115,7 @@ This is an open learning project. Fork it, improve it, or use it as a base for y
 
 ## 🪪 License
 
-This project is licensed under the **MIT License**.
+**MIT License**.
 
 ---
 
@@ -138,16 +130,3 @@ GitHub: [@SameerNadaf](https://github.com/SameerNadaf)
 ## 🙌 Acknowledgments
 
 * [OpenWeatherMap API](https://openweathermap.org/api) for weather data
-* Apple Core Location for GPS integration
-* SwiftUI & Combine for modern declarative UI
-* Tutorials and open-source guides that inspired this learning journey
-
-```
-
----
-
-Let me know if:
-- You want this tailored to a specific API (like OpenWeatherMap).
-- You have screenshots to link directly.
-- You want to generate a downloadable `README.md` file.
-```
